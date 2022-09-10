@@ -1,0 +1,147 @@
+:root{
+    
+    color: #ffffff;
+    
+  }
+
+body{
+    background-image: url(img/nait.iimg.jpg);
+    
+ }
+
+
+
+*{
+    box-sizing: border-box;
+    
+}
+
+
+ 
+ header{
+ 
+margin-bottom: 100px; 
+}
+ 
+ .nav-header{
+   align-items: center;
+   display: flex;
+   margin-left: auto;
+   
+}
+
+ 
+.marguee .nav-header_list{
+    display: flex;
+    margin-left: 130px;
+    padding-top: 30px;
+    
+    flex-wrap: wrap;
+    margin-left: auto;
+    list-style: none;
+ }
+
+ .marguee .nav-header_list a{
+color: rgb(255, 253, 253);
+
+text-shadow: 0 0 5px #259ed2, 0 0 10px hsl(235, 71%, 63%), 0 0 20px #ffffff, 0 0 40px hsl(256, 57%, 72%), 0 0 80px hsl(233, 85%, 47%), 0 0 90px hsl(215, 100%, 50%), 0 0 100px hsl(279, 100%, 50%), 0 0 150px hsl(227, 100%, 50%);
+text-decoration: none;
+margin-right: 70px;
+
+font-size: 25px;
+
+ } 
+ 
+ .marguee .nav-header_list a::before{
+    content: "";
+
+    z-index: -2;
+    opacity: 0.3;
+    filter: blur(60px);
+ }
+ .marguee a:hover{
+   color: rgb(60, 0, 255);
+   
+}
+
+h1{
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 100px;
+    font-weight: 900;
+    font-size: 50px;
+}
+.container-boostrap{
+    color: rgb(17, 16, 16);
+   
+}
+.custom{
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.form-label{
+    font-size: 50px;
+    color: #ffffff;
+    margin-bottom: 50px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+}
+
+.row{
+    background-color: rgb(255, 255, 0);
+    margin: 10px;
+    
+}
+
+
+
+
+.accordion-name-custom{
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 100px;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.accordion-button {
+    background-color: #31bdf9;
+}
+strong{
+    background-color: #31bdf9;
+}
+
+.alerts-custom-name{
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 100px;
+    font-weight: 900;
+    font-size: 50px;
+}
+.button-custom-name{
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 100px;
+    font-weight: 900;
+    font-size: 50px;
+}
+.Dropdowns-custom-name{
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 100px;
+    font-weight: 900;
+    font-size: 50px;
+}
+.modal-custom-name{
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 100px;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.tab-pane{
+    background: #31bdf9;
+    color: white;
+}
