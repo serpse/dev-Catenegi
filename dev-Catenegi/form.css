@@ -1,0 +1,19 @@
+button{
+    text-transform: uppercase;
+    align-items: center;
+    text-align: center;
+    padding: 14px 26px;
+background: #68B738;
+width: 244px;
+height: 54px;
+left: 190px;
+top: 455px;
+font-size: 15px;
+
+color: rgb(255, 255, 255);
+border: none;
+font-family: var(--font-family);
+font-weight: 400;
+margin:20px;
+
+}

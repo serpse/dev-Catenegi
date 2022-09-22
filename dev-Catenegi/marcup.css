@@ -11,39 +11,83 @@
 
  /* @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;300;400;500&family=Pacifico&family=Roboto:wght@300;400;500;700&family=Ropa+Sans&display=swap');  */
 
+ .containerw{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+
+}
+
+
 
 :root{
-    --primary-color: rgb(38, 255, 10);
-    --font-family: "arialmt.ttf"; 
+    --primary-color: rgb(26, 223, 0);
+    --font-family: "Oswald-Regular.ttf"; 
     --font-size: 16px;
     
     --font-weight:700;
 }
 
-.container-marcup{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-  
-    height: 100%;
+
+.marcup-number {
+    list-style: none;
+    
+    
+}
+.Font-weight-light{
+    font-weight: 300;
+}
+.Font-weight-normal{
+    font-weight: 400;
+}
+.Font-weight-bold{
+    font-weight: 700;
 }
 
+h1{
+    font-size: 60px;
+}
+
+h2{
+    font-size: 36px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+h4{
+    font-size: 24px;
+}
+h5{
+    font-size: 20px;
+}
+h6{
+    font-size: 18px;
+}
 
 .marcup-number{
-    max-width: 441px;
-    width: 100%;
-    height: 500px;
-
-    border: 1px solid rgb(110, 5, 5);
+    max-width: 439px;
+    width: 443px;
+    
+    
+    border: 1px solid rgb(255, 3, 3);
 }
-  
+ 
+.site-map a{
+    color: var(--primary-color);
+    
+}
 .number-brand{
     margin-bottom: 7px;
+    
 }
 
 .brand-title{
     
     margin-bottom: 15px;
+    
    
 }
 .brand-color{
@@ -62,40 +106,101 @@
     
 }
 
+
+.scroll{
+    overflow-y: scroll;
+    width: 100%;
+    height: 450px;
+    
+}
+.scroll::-webkit-scrollbar {
+    width: 9px;
+    
+}
+.scroll::-webkit-scrollbar-thumb {
+    background-color: var(--primary-color);
+    
+}
+
+.scroll::-webkit-scrollbar-thumb:hover {
+    background-color: var(--primary-color);
+}
+
+
+
+
+.Title-item-h1{
+    font-size: 60px;
+}
+
+a{
+    color: brown;
+}
+
+
 a:hover {
-    text-decoration: none;
-  color: rgb(255, 12, 24);
+    
+  color: rgb(255, 0, 0);
+  
 }
-.marcup-number_item-font {
-    font-weight: 900;
-    font-family: var(--font-family);
-    background: var(--primary-color);
-    font-size: var(--font-size);
+input, label{
+    margin: 15px;
+    
 }
-.marcup-number_item-font-arial{
-    font-family: 'arialmt.ttf';
-    font-size: 16px;
+input[type="checkbox"], input[type="radio"] {
+    display: none;
 }
-.Font-weight-bold{
-    font-weight: var(--font-weight);
-}
-.Font-weight-light{
-    font-weight:300;
-}
-.Font-weight-normal{
-    font-weight: 400;
-}
-.Font-weight-bold{
-    font-weight:var(--font-weight);
-}
- 
-/*       NE работает    ......,....???////  */
+
+
+
+
+/*       NE работает    ......,....???////  
 input[type="checkbox"]+label[for="checkbox"] {
-  background: bisque;
+  background: bisque;*/
 }
 
 
 
+
+
+input[type="radio"]+label {
+    color: #000;
+    cursor: pointer;
+    font-size: 20px;
+    line-height: 1.5;
+    
+    text-transform: uppercase;
+}
+
+
+
+input[type="checkbox"]:checked + label:before {
+    content: '';
+    background: url(Next_arrow_1559.png) center/20px no-repeat;
+}
+
+input[type="radio"]:checked + label:before {
+    content: '';
+    background: url(Next_arrow_1559.png) center/21px no-repeat;
+}
+
+
+
+input[type="checkbox"]+label:before {
+    content: '';
+    padding: 9px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+    margin-bottom: 13px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    background-color: #fff;
+    border: 1px solid #CDCDCD;
+}
+
+/*
 label[for="fname"]::before{
 content: "";
 padding: 9px;
@@ -110,11 +215,11 @@ background: url(checked_checkbox-48_44484.png) center no-repeat  ;
 /*border: 1px solid rgb(7, 15, 245);
 /*border-radius: 50%;
 /*                     Для круга 50% добавить  ////    ////       */
-}
 
 
 
 
+/*
 label[for="html"]::before {
     content: "";
     
@@ -128,11 +233,98 @@ margin-right: 19px;
 }
 
 
-/*       NE работает    ......,....???////  */
+/*       NE работает    ......,....???//// 
 input [type="radio"] + label [for="css"]::before {
-   display: none;
+   
     border-radius: 50%;
     background: url(checked_checkbox-48_44484.png) center no-repeat  ;
-    /*background-size: contain;*/
+    /*background-size: contain;
     border: 1px solid transparent;
+} */
+
+
+
+
+/*
+input[type="checkbox"]:checked + label:before {
+    content: '';
+    background: url(Next_arrow_1559.png) center/20px no-repeat;
+}*/
+
+input[type="radio"]+label:before {
+    content: '';
+    
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+    
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    
+    border: 1px solid #f2ff00;
+}
+
+button{
+    text-transform: uppercase;
+    align-items: center;
+    text-align: center;
+    padding: 14px 26px;
+background: #68B738;
+width: 244px;
+height: 54px;
+left: 190px;
+top: 455px;
+font-size: 20px;
+
+color: rgb(255, 255, 255);
+border: none;
+font-family: var(--font-family);
+font-weight: 400;
+margin:20px;
+
+}
+button:hover{
+    color: white;
+    border: 1px solid transparent;
+    
+}
+
+
+button:active{
+    color: #0bffff;
+}
+button:focus{
+    box-shadow: none;
+}
+
+.tttt{
+    width: 90px;
+    height: 50px;
+    display: inline-block;
+    padding: 12px 29px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    line-height: 1.5;
+    border-radius: 4px;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    margin:20px;
+}
+.tt{
+    padding: 14px 26px;
+    background-color: #68B738;
+    font-size: 20px;
+    line-height: 0.9;
+    text-transform: uppercase;
+    color: beige;
+    border-radius: 0;
+    border: 6px solid #66ed89;
+    display: flex;
+
 }
