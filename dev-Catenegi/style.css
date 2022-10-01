@@ -23,11 +23,7 @@ header .navbar .navbar-nav a.nav-link:hover::before{
 
 
 
-header a{
-  
-   /* margin-bottom: 32px;*/
-   
-}
+
 
  button{
     margin-top: 15px;
@@ -138,7 +134,7 @@ h1, h2{
     background: #68B738;
     color: white;
     font-size: 19px;
-    line-height: 0px;
+    
     display: flex;
     align-items: center;
     text-align: center;
@@ -557,6 +553,7 @@ height: 269px;
   *{
     margin:0;
     box-sizing: border-box;
+    
   }
   
   /* Our wrapper */

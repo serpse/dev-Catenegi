@@ -157,7 +157,7 @@ input[type="checkbox"], input[type="radio"] {
 /*       NE работает    ......,....???////  
 input[type="checkbox"]+label[for="checkbox"] {
   background: bisque;*/
-}
+
 
 
 
@@ -317,14 +317,31 @@ button:focus{
     margin:20px;
 }
 .tt{
-    padding: 14px 26px;
-    background-color: #68B738;
-    font-size: 20px;
-    line-height: 0.9;
-    text-transform: uppercase;
-    color: beige;
-    border-radius: 0;
-    border: 6px solid #66ed89;
-    display: flex;
+    
+        width: 192px;
+        height: 26px;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 400;
+        background: #68B738;
+        color: white;
+        font-size: 19px;
+        
+        display: flex;
+        align-items: center;
+        text-align: center;
+        text-transform: uppercase;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 14px 26px;
+       border: none;
+        width: 244px;
+        height: 54px;
+        
+        --bs-btn-hover-bg: #68B738;
+        --bs-btn-focus-shadow-rgb: #68B738;
+        --bs-btn-active-bg: #68B738;
+       
+    }
 
-}
