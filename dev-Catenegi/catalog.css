@@ -134,12 +134,12 @@ h1, h2{
 /*                    catalog   */
 
 .catalog{
-    margin-bottom: 76px;
+   margin-bottom: 75px;  
     
   
 
 }
-.container{
+.catalog .container{
     display: flex;
     flex-wrap: wrap;
     margin-left: 110px;
@@ -164,7 +164,7 @@ margin-left: 110px;
     width: 245px;
     height: 431px;
     background: #F2F2F2;
-    margin-bottom: 90px;
+    margin-bottom: 140px;
     margin-right: 54px;
     
 }
@@ -237,26 +237,22 @@ line-height: 16px;
 
 .catalog-btnn{
     width: 62px;
-height: 20px;
-font-family: 'Oswald';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 20px;
+    height: 20px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
     background: #68B738;
     color: white;
-    
-    
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: center;
     text-transform: uppercase;
-    
-    
-   border: none;
-   width: 168px;
-height: 40px;
+    border: none;
+     width: 168px;
+    height: 40px;
     
     --bs-btn-hover-bg: #68B738;
     --bs-btn-focus-shadow-rgb: #68B738;
@@ -265,8 +261,142 @@ height: 40px;
 
 
 .btm{
-    margin: 0 39px 40px 39px;
+    margin: 33px 0 35px 0;
 }
+
+
+/*                                   table-product                    */
+
+
+h2.table-additional-products{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 36px;
+    margin-top: -150px;
+    margin-bottom: 81px;
+    margin-left: 110px
+    
+}
+
+table.iksweb{
+	width: 100%;
+    max-width: 896px;
+    min-width: 767px;
+	border-collapse:collapse;
+	border-spacing:0;
+	height: 288px;
+    margin-right: 80px;
+    
+}
+table.iksweb,table.iksweb td, table.iksweb th {
+	border: none;
+    border-bottom: 1px solid #CDCDCD;
+}
+
+
+table.iksweb td,table.iksweb th {
+	padding: 3px;
+	width: 33%;
+	height: 35px;
+}
+table.iksweb th {
+	background: #347c99; 
+	color: #fff; 
+	font-weight: normal;
+}
+
+
+.buttom{
+    width: 62px;
+    height: 20px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    background: #68B738;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    text-transform: uppercase;
+    border: none;
+    width: 244px;
+    height: 40px;
+    
+    --bs-btn-hover-bg: #68B738;
+    --bs-btn-focus-shadow-rgb: #68B738;
+    --bs-btn-active-bg: #68B738;
+}
+/*
+                .iksweb .buttom{
+                    width: 100%;
+                      }
+
+*/
+.table-product .container{
+    display: flex;
+    
+}
+
+/*
+                                     section{
+                                 margin: 200px auto;
+                                                                           }*/
+
+                                                                        
+
+.table.iksweb td,table.iksweb tr:first-child{
+border-top:  1px solid #CDCDCD;
+}
+
+
+td.product-category{
+    font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 20px;
+text-transform: uppercase;
+color: #222222;
+width: 100%;
+}
+
+td.product-category-price{
+    font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+
+}
+
+.product-category-size{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+   
+}
+
+
+
+.table-product-gift img{
+    width: 245px;
+height: 289px;
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -378,6 +508,18 @@ background-repeat: no-repeat;
     justify-content: space-between;
     align-items: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -531,11 +673,147 @@ main .first-screen > .container {
     
 }
  
-
-
-.mape{
-    margin-top: -200px;
+.catalog h1.catalog-title {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 36px;
+    text-align: center;
+    margin: 27px 0 49px;
 }
+
+.catalog-img img {
+    height: 112px;
+    position: absolute;
+    /* margin-left: -90px; */
+    right: 190px;
+    bottom: -45px;
+}
+
+.catalog-desctiption-lin {
+    border-bottom: none;
+}
+
+.catalog .container {
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-left: 110px; */
+    /* padding-left: 0; */
+    /* padding-right: 0; */
+    /* margin-right: 110px; */
+    justify-content: center;
+}
+
+.catalog-item {
+    /* width: 245px; */
+    /* height: 431px; */
+    background: #ffffff;
+    margin-bottom: 116px;
+    /* margin-right: 54px; */
+    width: 282px;
+    height: 112px;
+    position: relative;
+}
+
+.catalog-name{
+    
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        margin: 0px 40px 18px;
+        max-width: 76px;
+        text-align: inherit;
+        margin-bottom: 18px;
+}
+
+
+.catalog-desctiption {
+    max-width: 166px;
+    width: 100%;
+    margin-bottom: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}
+
+
+
+.catalog-desctiption-massa{
+    font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+}
+
+
+.catalog-desctiption-ves{
+    font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+}
+
+.catalog-btnn.btm {
+    position: absolute;
+    right: 64px;
+    width: 280px
+}
+
+
+
+h2.table-additional-products{
+    font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 24px;
+margin: -70px 75px 50px 20px;
+}
+
+
+
+section.table-product{
+    margin-bottom: 57px;
+}
+
+
+
+table.iksweb{
+    
+}
+
+section.table-product .container{
+    overflow-x: auto;
+}
+
+
+.mape {
+        margin-top: 0;
+        width: 100%;
+    }
+
+.mape-info {
+        background-color: #F2F2F2;;
+        max-width: 570px;
+        width: 100%;
+        padding: 28px 20px 22px 20px;
+        display: flex;
+        position: static;
+        left: 110p;
+        bottom: 104px;
+    }
+
+
+
+
+
+
 
 
 
