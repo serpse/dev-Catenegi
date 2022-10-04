@@ -176,12 +176,12 @@ input[type="radio"]+label {
 
 input[type="checkbox"]:checked + label:before {
     content: '';
-    background: url(Next_arrow_1559.png) center/20px no-repeat;
+    background: url(img/tick-checxbox.svg) center/20px no-repeat;
 }
 
 input[type="radio"]:checked + label:before {
     content: '';
-    background: url(Next_arrow_1559.png) center/21px no-repeat;
+    background: url(img/radiobutton-active.svg) center/21px no-repeat;
 }
 
 
@@ -193,8 +193,8 @@ input[type="checkbox"]+label:before {
     vertical-align: middle;
     margin-right: 20px;
     margin-bottom: 13px;
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     cursor: pointer;
     background-color: #fff;
     border: 1px solid #CDCDCD;

@@ -160,13 +160,14 @@ margin-bottom: 66px;
     display: flex ;
     flex-direction: column;
     width: 100%;
+  /*          width: calc(100% - 648px);                          */
 }
 
 
 
-input[type="checkbox"]:checked + label:before {
+input[type="radio"]:checked + label:before {
     content: '';
-    background: url(Next_arrow_1559.png) center/20px no-repeat;    
+    background: url(img/radiobutton-active.svg) center/20px no-repeat;    
 
    /* background: center/20px no-repeat #68B738;        */
 }
@@ -174,19 +175,19 @@ input[type="checkbox"]:checked + label:before {
 
 
 
-input[type="checkbox"]+label:before {
+input[type="radio"]+label:before {
     content: '';
     padding: 9px;
     display: inline-block;
     vertical-align: middle;
     margin-right: 20px;
     
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     cursor: pointer;
     background-color: #fff;
     border: 1px solid #CDCDCD;
-    border-radius: 50%;
+    border-radius: 50px
 }
 
 input[type="checkbox"], input[type="radio"] {
@@ -195,6 +196,9 @@ input[type="checkbox"], input[type="radio"] {
 
 .form-row{
     display: flex;
+    align-items: flex-start;
+    margin-bottom: 69px;
+   /* flex-wrap: wrap;              */
 }
 
 
@@ -202,7 +206,7 @@ input[type="checkbox"], input[type="radio"] {
     width: 100%;
     max-width: 568px;
     border: 1px solid #E7E7E7;
-    padding: 28px 28px;
+    padding: 24px 28px;
     margin-left: 80px;
     
 }
@@ -216,7 +220,149 @@ font-weight: 400;
 font-size: 20px;
 line-height: 30px;
 text-transform: uppercase;
+color: #444444;
 }
+
+
+
+
+
+.input-row{
+    margin-bottom: 20px;
+display: flex;
+align-items: center;
+width:100% ;
+}
+
+.input-row label{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #444444;
+    margin-right: 14px;
+    white-space: nowrap;
+   /* word-break: break-all;   */
+}
+
+
+.input-row input, textarea{
+    border: 1px solid #E7E7E7;
+    padding: 10px 20px 10px;
+    font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+text-transform: uppercase;
+color: #444444;
+width: 100%;
+}
+
+.input-row input:focus-visible{
+    outline: none;
+}
+
+
+.input-row:last-child{
+    margin-bottom: 0;
+}
+
+.radio-box > div:last-child label{
+  
+    margin-bottom: 0;
+}
+
+
+.form-row-title {
+   /*   width: 100%;      */
+   margin-bottom: 76px; 
+   
+}
+
+
+/*
+
+.form-row-title .input-row{
+  display: inline-block;
+}
+
+.form-row-title .input-row input{
+    width: auto;
+}
+
+*/
+
+
+.form-row-contact{
+    font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 36px;
+color: #000000;
+
+}
+
+
+/*
+.input-row{
+    margin-left: 80px;
+}
+
+
+
+.input-row:first-child{
+    margin-left: 0px;
+    
+}
+
+*/
+
+
+[name="mail"]{
+    margin-right: 80px;
+}
+
+
+#mail {
+   max-width: calc(100% - 652px);
+}
+textarea{
+    height: 174px;
+}
+
+
+
+
+
+
+.form-row-title input[type="checkbox"]:checked + label:before {
+    content: '';
+    background: url(img/tick-checxbox.svg) center/26px no-repeat;    
+
+   /* background: center/20px no-repeat #68B738;        */
+}
+
+.form-row-title .input-row input[type="checkbox"]+label:before {
+    content: '';
+    padding: 9px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+    
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    background-color: #fff;
+    border: 1px solid #CDCDCD;
+    
+}
+
+
+
 
 
 

@@ -58,39 +58,99 @@
 
   <!--                    Program selection                       -->
 
-<div class="program-selection">
+<main class="program-selection">
     <div class="container">
          <h1 class="program-selection-title">Подбор программы</h1>
          <h2 class="program-selection-form_questionnaire">Заполните анкету, и мы подберем
          программу питания для вашего кота</h2>
          
    
-    <form class="program-selection-form">
+      <form class="program-selection-form">
             <div class="form-row">
                 <div class="input-box">
-                  <label for="fname">First name:</label>
-                  <input type="text" id="fname" name="fname" value="John">
-                  <label for="lname">Last name:</label>
-                  <input type="text" id="lname" name="lname" value="Doe">
-                  <label for="lname">Last name:</label>
-                  <input type="text" id="lname" name="lname" value="Doe">
+                  <div class="input-row">
+                    <label for="fname">ИМЯ:*</label>
+                    <input type="text" id="fname" name="fname" placeholder="барсик">
+                  </div>
+                  <div class="input-row">
+                    <label for="lname">Вес (кг):*</label>
+                    <input type="text" id="lname" name="lname" placeholder="7">
+                  </div>
+                  <div class="input-row">
+                    <label for="lname">Возраст (лет):</label>
+                    <input type="text" id="lname" name="lname" placeholder="7">
+                  </div>
                 </div>
                 <div class="radio-box">
-                    <form>
-                        <input type="checkbox" id="mass" name="vehicle1" value="mass">
+                    
+                     <div>
+                        <input type="radio" id="mass" name="vehicle1" value="mass">
                         <label for="mass"> похудение</label><br>
-                        <input type="checkbox" id="weight-loss" name="vehicle2" value="weight-loss">
+                      </div>
+                      <div>
+                        <input type="radio" id="weight-loss" name="vehicle1" value="weight-loss">
                         <label for="weight-loss"> Набор массы</label><br>
-                        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-                        <label for="vehicle3"> Не знаю (Нужен ваш совет)</label>
-                    </form>
-                </div>
-            </div>
-        
-            <input type="submit" value="submit" >    
-        
-    </form>
+                      </div>
+                      <div>
+                        <input type="radio" id="advice" name="vehicle1" value="advice">
+                        <label for="advice"> Не знаю (Нужен ваш совет)</label>
+                      </div> 
+                    
+               
+               
+               
+                    </div>
 
+            
+        
+                   <!--  <input type="submit" value="submit" >    --> 
+        
+                
+              </div>
+
+                <div class="form-row-title">
+                 <h2 class="form-row-contact">Контактные данные (владельца кота) </h2>
+                     
+                      <div class="input-row">
+                        <label for="mail">E-mail:*</label>
+                        <input type="mail" id="mail" name="mail" placeholder="кuklachev@gmail.com">
+                      
+                        <label for="fname">Телефон:*</label>
+                        <input type="phone" id="fname" name="fname" placeholder=" +3 80(960) 900-60-90">
+                      </div>
+                </div>  
+                <div class="form-row-title">
+                    <h2 class="form-row-contact">Комментарий</h2>
+                        
+                         <div class="input-row">
+                           <textarea  cols="30" rows="10" placeholder="Расскажите обо всех повадках кота"></textarea>
+                         </div>
+                   </div>
+                   <div class="form-row-title">
+                    <h2 class="form-row-contact">Комментарий</h2>
+                        
+                         <div class="input-row">
+                            <form>
+                                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                                <label for="vehicle1"> HTML</label><br>
+                                
+                                <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                                <label for="vehicle2"> CSS</label><br>
+                                
+                                <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                                <label for="vehicle3"> JavaScript</label>
+                            </form>
+                         </div>
+                   </div> 
+
+      
+      
+      
+      
+      
+      
+      </form>
+  
 
 
    
@@ -101,7 +161,7 @@
    
     </div>
 
-</div>
+</main>
 
 
 
